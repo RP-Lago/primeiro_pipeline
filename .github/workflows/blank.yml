@@ -37,7 +37,7 @@ jobs:
   
   deploy_dev:
     needs: build
-    uses: RP-Lago/pipeli_templates/.github/workflows/demo-deploy.yml@main
+    uses: RP-Lago/pipeli_templates/.github/workflows/demo-develoy.yml@main
     with:
       variavel-demo: "demo Dev"
     
